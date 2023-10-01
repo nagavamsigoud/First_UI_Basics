@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <style>
+        section, div, p{
+            border: 2px solid blue;
+            padding: 15px;
+            margin: 5px;
+        }
+        p::first-letter{
+            font-size: xx-large;
+        }
+        p::first-line{
+            background-color: rgb(132, 182, 179);
+        }
+        p::before{
+            content: "@";
+        }
+        p::after{
+            font-size: xx-large;
+            content: "@";
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div>
+            <p>Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.
+            </p>
+        </div>
+    </section>
+</body>
+
+</html>
