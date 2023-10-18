@@ -1,2 +1,2 @@
-# First_UI_Html_Basics
-HTML and Css Programs
+# First_UI_Basics
+HTML and Css adn Javascript Programs
