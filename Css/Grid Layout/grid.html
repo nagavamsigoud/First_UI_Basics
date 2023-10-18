@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Gird system</title>
+<style>
+ section,div{
+	
+	border:2px solid blue;
+	padding:65px;
+	margin-bottom:15px;
+	display:grid;
+	/*grid-template-columns:250px 250px 250px 250px 250px;
+	  gird-template-rows:250px 250px;*/
+	grid-template-columns:25% 25% 25% 25%;
+	grid-template-rows:250px 250px 250px;
+	margin-right:5px;
+}
+section div{
+	background-color:cornflowerblue;
+}
+header{
+	margin-bottom:10px;
+	border:2px solid blue;
+	padding:5px;
+	text-align:center;
+}
+footer{
+	margin-bottom:10px;
+	border:2px solid blue;
+	padding:5px;
+	text-align:center;
+}
+</style>
+</head>
+<body>
+<header>
+<h2>Header should be flex<h2>
+</header>
+<section>
+<div>one</div>
+<div>two</div>
+<div>three</div>
+<div>four</div>
+<div>five</div>
+<div>six</div>
+<div>seven</div>
+<div>Eight</div>
+<div>nine</div>
+<div>Ten</div>
+<div>eleven</div>
+<div>twelve</div>
+</section>
+<footer>
+<h2>Footer</h2>
+</footer>
+</body>
+</html>

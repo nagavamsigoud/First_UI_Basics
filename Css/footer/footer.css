@@ -1,0 +1,24 @@
+footer{
+    color:#343433;
+    background-color:wheat;
+    display:flex;
+}
+footer,div{
+    border-radius:10px;
+    padding:2px;
+}
+div{
+    flex:1;
+    margin:5px;
+}
+li,a{
+    line-height: 20px;
+    color:black;
+    list-style: none;
+    text-decoration: none;
+    font-size:x-small;
+ 
+}
+.logo{
+    color:red;
+}

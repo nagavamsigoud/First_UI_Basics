@@ -1,0 +1,21 @@
+section{
+    display: flex;
+   
+}
+section,div{
+    background-color:royalblue ;
+    border-radius:5px;
+    padding:2px;
+}
+section div{
+    flex:1;
+    margin:5px;
+
+}
+select{
+    background-color: royalblue;
+    font-family: Arial;
+}
+section div:first-child{
+  flex:3;
+}
